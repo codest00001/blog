@@ -14,7 +14,7 @@ const PostList = () => {
         <h1>posts list</h1>
         {
             posts.map((post) => {
-                return (
+                return(
                 <article>
                     <h3>{post.title}</h3>
                 </article>

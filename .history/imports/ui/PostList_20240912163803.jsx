@@ -11,16 +11,7 @@ const PostList = () => {
     console.log(posts);
         return(
         <>
-        <h1>posts list</h1>
-        {
-            posts.map((post) => {
-                return (
-                <article>
-                    <h3>{post.title}</h3>
-                </article>
-                )
-            })
-        }
+        postlist
         </>
     )
 }
